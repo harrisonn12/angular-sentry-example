@@ -1,0 +1,22 @@
+.button {
+  color: black;
+  height: 5vh;
+  width: 25vw;
+  border: 2px solid black;
+  text-decoration: none;
+  box-shadow: 7px 7px 0 black;
+  outline: none;
+  -webkit-transition: transform .05s, box-shadow .1s;
+  -o-transition: transform .05s, box-shadow .1s;
+  transition: transform .05s, box-shadow .1s;
+}
+
+.button:hover {
+  background: yellow;
+}
+
+.button:active {
+  transform: translate(7px, 7px);
+  border-style: outset;
+  box-shadow: none;
+}

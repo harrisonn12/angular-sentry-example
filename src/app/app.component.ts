@@ -6,5 +6,9 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'angular-sentry';
+  title = 'Angular with Sentry Integration Example';
+
+  spawnBug() {
+    throw new Error("A bug has appeared!");
+  }
 }
