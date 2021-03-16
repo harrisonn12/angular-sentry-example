@@ -3,7 +3,7 @@ Angular example for error catching using Sentry
 
 ## How to use
 1. Install Angular ```npm install -g @angular/cli```
-2. Install sentry sdk ```npm install @sentry/angular```
+2. Install Sentry SDK ```npm install @sentry/angular```
 3. Clone this project
 4. Paste your provided DSN into src/app/app.module.ts
 ```javascript
